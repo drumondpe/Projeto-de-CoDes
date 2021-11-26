@@ -1,0 +1,84 @@
+/*
+font-family: 'Fira Sans', sans-serif; principal para título
+font-family: 'Source Serif Pro', serif; principal para texto
+font-family: 'Roboto', sans-serif; secundária para título
+font-family: 'PT Serif', serif; secundária para texto
+
+Como fazer:
+- colocar os 3 links lá no html
+- mudar as cores e fontes aqui
+*/
+html, body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: 'Fira Sans', 'Roboto',  sans-serif;
+}
+header {
+    color: #479ee0;
+    font-size: 4.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-bottom: .2rem solid black;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+}
+main {
+    height: 90%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.link {
+    display: block;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: #479ee0;
+    font-family: 'Fira Sans', sans-serif
+}
+.vagaVermelha {
+    height: 110px;
+    width: 220px;
+    background-color: red;
+    margin: 10px;
+}
+.vagaVerde {
+    height: 110px;
+    width: 220px;
+    background-color: green;
+    margin: 10px;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
