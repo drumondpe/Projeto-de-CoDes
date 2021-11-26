@@ -106,3 +106,23 @@ h2 {
     color:white;
     background-color: #479ee0;
 }
+
+#explicacao{
+    position: absolute;
+    color: #479ee0;
+    background-color: white;
+    display: flex;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    height: 8rem;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    right: 1rem;
+    top: 5rem;
+    font-family: 'Source Serif Pro', 'PT Serif', serif;
+}
